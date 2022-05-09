@@ -1,14 +1,13 @@
 export default class Snake {
 	constructor({ x, y }) {
 		this.body = [];
-		this.direction = '';
 
 		this.body.push([x, y]);
 	}
 
-	move({ shouldGrow }) {
+	move(direction) {
 		const [x, y] = this.body[0];
-		switch (this.direction) {
+		switch (direction) {
 			case 'left':
 				this.body.unshift([x - 1, y]);
 				break;
@@ -24,7 +23,9 @@ export default class Snake {
 			default:
 				break;
 		}
+	}
 
-		!shouldGrow && this.body.pop();
+	popBody() {
+		this.body.pop();
 	}
 }

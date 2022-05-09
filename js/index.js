@@ -39,19 +39,18 @@ class Game {
 		ctx.clearRect(0, 0, canvas.width, canvas.height);
 
 		// Update state
-		this.snake.direction = this.controls.direction;
+		this.snake.move(this.controls.direction);
 		const { foodCollision, snakeCollision } = this.snakeCollision();
+		foodCollision
+			? this.food.respawn(this.snake.body, PIXEL_ROW_COUNT)
+			: this.snake.popBody();
 		if (snakeCollision) {
 			this.reset();
 			return;
 		}
-		if (foodCollision) {
-			this.food.respawn(this.snake.body, PIXEL_ROW_COUNT);
-		}
-		this.snake.move({ shouldGrow: foodCollision });
-		this.applyInfiniteBoundary();
 
 		// Redraw updated position
+		this.applyInfiniteBoundary();
 		this.drawFrame();
 	}
 
@@ -75,19 +74,22 @@ class Game {
 
 	snakeCollision() {
 		const [headX, headY] = this.snake.body[0];
-
+		let hasEatenFood = false;
+		let hasHitTail = false;
 		for (let [idx, coord] of this.snake.body.entries()) {
 			const [x, y] = coord;
 			if (x === this.food.x && y === this.food.y) {
-				return { foodCollision: true, snakeCollision: false };
+				hasEatenFood = true;
+				break;
 			}
 
 			if (idx > 0 && headX === x && headY === y) {
-				return { foodCollision: false, snakeCollision: true };
+				hasHitTail = true;
+				break;
 			}
 		}
 
-		return { foodCollision: false, snakeCollision: false };
+		return { foodCollision: hasEatenFood, snakeCollision: hasHitTail };
 	}
 
 	setGrid() {
