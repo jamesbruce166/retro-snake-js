@@ -1,0 +1,39 @@
+{
+	"categories": [
+		{
+			"id": 1,
+			"name": "Home DIY",
+			"desc": "DIY and home improvements"
+		},
+		{
+			"id": 2,
+			"name": "Kitchen Essentials",
+			"desc": "Everything you can ever need for the perfect kitchen"
+		},
+		{
+			"id": 3,
+			"name": "Furnature",
+			"desc": "The cheapest and most reliable furnature for your home"
+		},
+		{
+			"id": 4,
+			"name": "Technology",
+			"desc": "Modernise your home with our latest tech products"
+		},
+		{
+			"id": 5,
+			"name": "Leisure",
+			"desc": "From family fun to house party king"
+		},
+		{
+			"id": 6,
+			"name": "Bathroom Basics",
+			"desc": "Anything you can need in your bathroom, we have it.."
+		},
+		{
+			"id": 7,
+			"name": "Decor",
+			"desc": "Style your home with our variety of decor"
+		}
+	]
+}

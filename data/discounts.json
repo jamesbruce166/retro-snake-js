@@ -1,0 +1,19 @@
+{
+	"discounts": [
+		{
+			"id": 1,
+			"percent": 0,
+			"desc": "No sale or discount"
+		},
+		{
+			"id": 2,
+			"percent": 10,
+			"desc": "10% off, all profit is donated to support the Children In Need charity."
+		},
+		{
+			"id": 3,
+			"percent": 25,
+			"desc": "25% off everything, our biggest sale yet."
+		}
+	]
+}

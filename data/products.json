@@ -1,0 +1,584 @@
+{
+	"products": [
+		{
+			"id": 1,
+			"categoryId": 1,
+			"discountId": 1,
+			"name": "Power Drill",
+			"desc": "",
+			"imageSrc": "/products/powerdrill.jpg",
+			"price": "£24.99",
+			"instock": true
+		},
+		{
+			"id": 2,
+			"categoryId": 1,
+			"discountId": 1,
+			"name": "Paint Brush Set",
+			"desc": "",
+			"imageSrc": "/products/paintbrushset.jpg",
+			"price": "£9.99",
+			"instock": true
+		},
+		{
+			"id": 3,
+			"categoryId": 1,
+			"discountId": 1,
+			"name": "LED Rechargable Torch",
+			"desc": "",
+			"imageSrc": "/products/ledrechargabletorch.jpg",
+			"price": "£7.35",
+			"instock": true
+		},
+		{
+			"id": 4,
+			"categoryId": 1,
+			"discountId": 1,
+			"name": "2 Step Ladder",
+			"desc": "",
+			"imageSrc": "/products/2stepladder.jpg",
+			"price": "£32",
+			"instock": true
+		},
+		{
+			"id": 5,
+			"categoryId": 1,
+			"discountId": 1,
+			"name": "Super Glue",
+			"desc": "",
+			"imageSrc": "/products/superglue.jpg",
+			"price": "£2.99",
+			"instock": true
+		},
+		{
+			"id": 6,
+			"categoryId": 1,
+			"discountId": 1,
+			"name": "Screwdriver Set",
+			"desc": "",
+			"imageSrc": "/products/screwdriverset.jpg",
+			"price": "£11",
+			"instock": true
+		},
+		{
+			"id": 7,
+			"categoryId": 1,
+			"discountId": 1,
+			"name": "LED Head Torch",
+			"desc": "",
+			"imageSrc": "/products/ledheadtorch.jpg",
+			"price": "£8.76",
+			"instock": true
+		},
+		{
+			"id": 8,
+			"categoryId": 1,
+			"discountId": 1,
+			"name": "Pro Breeze Humidifer",
+			"desc": "",
+			"imageSrc": "/products/humidifier.jpg",
+			"price": "£65",
+			"instock": true
+		},
+		{
+			"id": 9,
+			"categoryId": 1,
+			"discountId": 1,
+			"name": "Telescoping Ladder",
+			"desc": "",
+			"imageSrc": "/products/telescopingladder.jpg",
+			"price": "£45",
+			"instock": true
+		},
+		{
+			"id": 10,
+			"categoryId": 1,
+			"discountId": 1,
+			"name": "Radiator Bleed Key",
+			"desc": "",
+			"imageSrc": "/products/radiatorbleedkey.jpg",
+			"price": "£3.87",
+			"instock": true
+		},
+		{
+			"id": 11,
+			"categoryId": 1,
+			"discountId": 1,
+			"name": "Self Adhesive Vinyl Flooring",
+			"desc": "",
+			"imageSrc": "/products/adhesivefloor.jpg",
+			"price": "£64.20",
+			"instock": true
+		},
+		{
+			"id": 12,
+			"categoryId": 2,
+			"discountId": 1,
+			"name": "Smart Kettle",
+			"desc": "",
+			"imageSrc": "/products/smartkettle.jpg",
+			"price": "£18.34",
+			"instock": true
+		},
+		{
+			"id": 13,
+			"categoryId": 2,
+			"discountId": 1,
+			"name": "Large Toaster",
+			"desc": "",
+			"imageSrc": "/products/largetoaster.jpg",
+			"price": "£22",
+			"instock": true
+		},
+		{
+			"id": 14,
+			"categoryId": 2,
+			"discountId": 1,
+			"name": "Manual Coffee Press",
+			"desc": "",
+			"imageSrc": "/products/manualcoffeepress.jpg",
+			"price": "£56",
+			"instock": true
+		},
+		{
+			"id": 15,
+			"categoryId": 2,
+			"discountId": 1,
+			"name": "Smart Coffee Machine",
+			"desc": "",
+			"imageSrc": "/products/smartcoffeemachine.jpg",
+			"price": "£346",
+			"instock": true
+		},
+		{
+			"id": 16,
+			"categoryId": 2,
+			"discountId": 1,
+			"name": "Non-stick Frying Pan Set",
+			"desc": "",
+			"imageSrc": "/products/nonstickpanset.jpg",
+			"price": "£72",
+			"instock": true
+		},
+		{
+			"id": 17,
+			"categoryId": 2,
+			"discountId": 1,
+			"name": "Hot Plate for table top cooking",
+			"desc": "",
+			"imageSrc": "/products/hotplate.jpg",
+			"price": "£49.99",
+			"instock": true
+		},
+		{
+			"id": 18,
+			"categoryId": 2,
+			"discountId": 1,
+			"name": "Cutlery Set",
+			"desc": "",
+			"imageSrc": "/products/cutleryset.jpg",
+			"price": "£23.99",
+			"instock": true
+		},
+		{
+			"id": 19,
+			"categoryId": 2,
+			"discountId": 1,
+			"name": "NUTRIBULLET 600 Series Blender",
+			"desc": "",
+			"imageSrc": "/products/NUTRIBULLET600.jpg",
+			"price": "£69",
+			"instock": true
+		},
+		{
+			"id": 20,
+			"categoryId": 2,
+			"discountId": 1,
+			"name": "5L Slow Cooker",
+			"desc": "",
+			"imageSrc": "/products/slowcooker.jpg",
+			"price": "£42",
+			"instock": true
+		},
+		{
+			"id": 21,
+			"categoryId": 2,
+			"discountId": 1,
+			"name": "Washing Up Liquid",
+			"desc": "",
+			"imageSrc": "/products/washingupliquid.jpg",
+			"price": "£2.45",
+			"instock": true
+		},
+		{
+			"id": 22,
+			"categoryId": 3,
+			"discountId": 1,
+			"name": "Comfort Pro Double Bed Frame",
+			"desc": "",
+			"imageSrc": "/products/bedframe.jpg",
+			"price": "£178",
+			"instock": true
+		},
+		{
+			"id": 23,
+			"categoryId": 3,
+			"discountId": 1,
+			"name": "Bedside Drawer (Black)",
+			"desc": "",
+			"imageSrc": "/products/bedsidedrawer.jpg",
+			"price": "£34",
+			"instock": true
+		},
+		{
+			"id": 24,
+			"categoryId": 3,
+			"discountId": 1,
+			"name": "6 Seater Corner Sofa (Grey)",
+			"desc": "",
+			"imageSrc": "/products/cornersofa.jpg",
+			"price": "£765",
+			"instock": true
+		},
+		{
+			"id": 25,
+			"categoryId": 3,
+			"discountId": 1,
+			"name": "Large Chestnut Wardrobe",
+			"desc": "",
+			"imageSrc": "/products/wardrobe.jpg",
+			"price": "£89",
+			"instock": true
+		},
+		{
+			"id": 26,
+			"categoryId": 3,
+			"discountId": 1,
+			"name": "Dining Table (4 matching chairs included)",
+			"desc": "",
+			"imageSrc": "/products/diningtable.jpg",
+			"price": "£225",
+			"instock": true
+		},
+		{
+			"id": 27,
+			"categoryId": 4,
+			"discountId": 1,
+			"name": "Apple HomePod",
+			"desc": "",
+			"imageSrc": "/products/homepod.jpg",
+			"price": "£40",
+			"instock": true
+		},
+		{
+			"id": 28,
+			"categoryId": 4,
+			"discountId": 1,
+			"name": "Smart Extension with Surge Protection",
+			"desc": "",
+			"imageSrc": "/products/.jpg",
+			"price": "£35",
+			"instock": true
+		},
+		{
+			"id": 29,
+			"categoryId": 4,
+			"discountId": 1,
+			"name": "Home Cinema Projector",
+			"desc": "",
+			"imageSrc": "/products/.jpg",
+			"price": "£35",
+			"instock": true
+		},
+		{
+			"id": 30,
+			"categoryId": 4,
+			"discountId": 1,
+			"name": "72 Inch Samsung Smart TV",
+			"desc": "",
+			"imageSrc": "/products/.jpg",
+			"price": "£35",
+			"instock": true
+		},
+		{
+			"id": 31,
+			"categoryId": 4,
+			"discountId": 1,
+			"name": "Ultra Speed WiFi Router",
+			"desc": "",
+			"imageSrc": "/products/.jpg",
+			"price": "£35",
+			"instock": true
+		},
+		{
+			"id": 32,
+			"categoryId": 4,
+			"discountId": 1,
+			"name": "Amazon Firestick",
+			"desc": "",
+			"imageSrc": "/products/.jpg",
+			"price": "£35",
+			"instock": true
+		},
+		{
+			"id": 33,
+			"categoryId": 4,
+			"discountId": 1,
+			"name": "Amazon Alexa",
+			"desc": "",
+			"imageSrc": "/products/.jpg",
+			"price": "£35",
+			"instock": true
+		},
+		{
+			"id": 34,
+			"categoryId": 5,
+			"discountId": 1,
+			"name": "Luxury Pool Table",
+			"desc": "",
+			"imageSrc": "/products/.jpg",
+			"price": "£35",
+			"instock": true
+		},
+		{
+			"id": 35,
+			"categoryId": 5,
+			"discountId": 1,
+			"name": "Supreme Series Pool Table",
+			"desc": "",
+			"imageSrc": "/products/.jpg",
+			"price": "£35",
+			"instock": true
+		},
+		{
+			"id": 36,
+			"categoryId": 5,
+			"discountId": 1,
+			"name": "Signature Jefferson American Pool Table",
+			"desc": "",
+			"imageSrc": "/products/.jpg",
+			"price": "£35",
+			"instock": true
+		},
+		{
+			"id": 37,
+			"categoryId": 5,
+			"discountId": 1,
+			"name": "Rasson Strong II Snooker Table",
+			"desc": "",
+			"imageSrc": "/products/.jpg",
+			"price": "£35",
+			"instock": true
+		},
+		{
+			"id": 38,
+			"categoryId": 5,
+			"discountId": 1,
+			"name": "Signature Jefferson American Pool Table",
+			"desc": "",
+			"imageSrc": "/products/.jpg",
+			"price": "£35",
+			"instock": true
+		},
+		{
+			"id": 39,
+			"categoryId": 5,
+			"discountId": 1,
+			"name": "ArcadePro Barrel 516 Wine Barrel Arcade Machine",
+			"desc": "",
+			"imageSrc": "/products/.jpg",
+			"price": "£35",
+			"instock": true
+		},
+		{
+			"id": 40,
+			"categoryId": 5,
+			"discountId": 1,
+			"name": "ArcadePro Ultra - 4 Player Arcade Machine",
+			"desc": "",
+			"imageSrc": "/products/.jpg",
+			"price": "£35",
+			"instock": true
+		},
+		{
+			"id": 41,
+			"categoryId": 5,
+			"discountId": 1,
+			"name": "Indoor Tennis Table",
+			"desc": "",
+			"imageSrc": "/products/.jpg",
+			"price": "£35",
+			"instock": true
+		},
+		{
+			"id": 42,
+			"categoryId": 5,
+			"discountId": 1,
+			"name": "Arcade Pinball Machine",
+			"desc": "",
+			"imageSrc": "/products/.jpg",
+			"price": "£35",
+			"instock": true
+		},
+		{
+			"id": 43,
+			"categoryId": 5,
+			"discountId": 1,
+			"name": "Vintage Jukebox",
+			"desc": "",
+			"imageSrc": "/products/.jpg",
+			"price": "£35",
+			"instock": true
+		},
+		{
+			"id": 44,
+			"categoryId": 5,
+			"discountId": 1,
+			"name": "Dart Board with Light Ring",
+			"desc": "",
+			"imageSrc": "/products/.jpg",
+			"price": "£35",
+			"instock": true
+		},
+		{
+			"id": 45,
+			"categoryId": 6,
+			"discountId": 1,
+			"name": "Toilet Brush and Holder Set",
+			"desc": "",
+			"imageSrc": "/products/.jpg",
+			"price": "£35",
+			"instock": true
+		},
+		{
+			"id": 46,
+			"categoryId": 6,
+			"discountId": 1,
+			"name": "6 Piece Bamboo Bathroom Set",
+			"desc": "",
+			"imageSrc": "/products/.jpg",
+			"price": "£35",
+			"instock": true
+		},
+		{
+			"id": 47,
+			"categoryId": 6,
+			"discountId": 1,
+			"name": "Smart Pressure Shower Head",
+			"desc": "",
+			"imageSrc": "/products/.jpg",
+			"price": "£35",
+			"instock": true
+		},
+		{
+			"id": 48,
+			"categoryId": 6,
+			"discountId": 1,
+			"name": "Shower Caddy Shelf Organiser",
+			"desc": "",
+			"imageSrc": "/products/.jpg",
+			"price": "£35",
+			"instock": true
+		},
+		{
+			"id": 49,
+			"categoryId": 6,
+			"discountId": 1,
+			"name": "Bathroom Storage Cabinet (White)",
+			"desc": "",
+			"imageSrc": "/products/.jpg",
+			"price": "£35",
+			"instock": true
+		},
+		{
+			"id": 50,
+			"categoryId": 6,
+			"discountId": 1,
+			"name": "Shower Gel Set",
+			"desc": "",
+			"imageSrc": "/products/.jpg",
+			"price": "£35",
+			"instock": true
+		},
+		{
+			"id": 51,
+			"categoryId": 6,
+			"discountId": 1,
+			"name": "Electric Toothbrush",
+			"desc": "",
+			"imageSrc": "/products/.jpg",
+			"price": "£35",
+			"instock": true
+		},
+		{
+			"id": 52,
+			"categoryId": 7,
+			"discountId": 1,
+			"name": "Rustic Wooden Floating Shelves",
+			"desc": "",
+			"imageSrc": "/products/.jpg",
+			"price": "£35",
+			"instock": true
+		},
+		{
+			"id": 53,
+			"categoryId": 7,
+			"discountId": 1,
+			"name": "Beauty4 Full Length Mirror",
+			"desc": "",
+			"imageSrc": "/products/.jpg",
+			"price": "£35",
+			"instock": true
+		},
+		{
+			"id": 54,
+			"categoryId": 7,
+			"discountId": 1,
+			"name": "Candle Holder Set of 4",
+			"desc": "",
+			"imageSrc": "/products/.jpg",
+			"price": "£35",
+			"instock": true
+		},
+		{
+			"id": 55,
+			"categoryId": 7,
+			"discountId": 1,
+			"name": "40 Piece Grass Decor",
+			"desc": "",
+			"imageSrc": "/products/.jpg",
+			"price": "£35",
+			"instock": true
+		},
+		{
+			"id": 56,
+			"categoryId": 7,
+			"discountId": 1,
+			"name": "Bedside Lamp with Wireless Charger",
+			"desc": "",
+			"imageSrc": "/products/.jpg",
+			"price": "£35",
+			"instock": true
+		},
+		{
+			"id": 57,
+			"categoryId": 7,
+			"discountId": 1,
+			"name": "Pack of 2 Yankee Candle Set",
+			"desc": "",
+			"imageSrc": "/products/.jpg",
+			"price": "£35",
+			"instock": true
+		},
+		{
+			"id": 58,
+			"categoryId": 7,
+			"discountId": 1,
+			"name": "Battery Power Digital Alarm Clock",
+			"desc": "",
+			"imageSrc": "/products/.jpg",
+			"price": "£35",
+			"instock": true
+		}
+	]
+}

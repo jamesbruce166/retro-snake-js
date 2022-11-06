@@ -1,0 +1,8 @@
+{
+	"navigation": [
+		{ "name": "Home", "href": "#", "current": true },
+		{ "name": "Shop", "href": "#", "current": false },
+		{ "name": "Categories", "href": "#", "current": false },
+		{ "name": "Sale", "href": "#", "current": false }
+	]
+}

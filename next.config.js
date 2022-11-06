@@ -1,8 +1,24 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
-}
+	webpack(config) {
+		config.module.rules.push({
+			test: /\.svg$/,
+			issuer: {
+				and: [/\.(js|ts)x?$/],
+			},
 
-module.exports = nextConfig
+			use: ['@svgr/webpack'],
+		});
+
+		return config;
+	},
+	experimental: {
+		appDir: true,
+	},
+	images: {
+		dangerouslyAllowSVG: true,
+		domains: ['images.unsplash.com', 'tailwindui.com'],
+	},
+};
+
+module.exports = nextConfig;

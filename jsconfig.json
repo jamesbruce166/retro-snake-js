@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@data": ["data"],
+			"@data/*": ["data/*"]
+		}
+	},
+	"include": ["app/**/*.js", "pages/**/*.js", "components/**/*.js"],
+	"exclude": ["node_modules", "**/node_modules", "dist"]
+}
